@@ -1,0 +1,10 @@
+[submodule "kicad-pcb/additional-symbols/nice!nano"]
+	path = kicad-pcb/additional-symbols/nice!nano
+	url = git@github.com:bstiq/nice-nano-kicad.git
+
+[submodule "kicad-pcb/additional-symbols/LoRa-E-KiCad"]
+	path = kicad-pcb/additional-symbols/LoRa-E-KiCad
+	url = git@github.com:Straverk/LoRa-E-KiCad.git
+[submodule "firmware"]
+	path = firmware
+	url = https://github.com/meshtastic/firmware
