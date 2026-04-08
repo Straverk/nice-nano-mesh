@@ -1,0 +1,124 @@
+(footprint "LX-LC535"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "db648f61-e08f-480c-9fef-86a2422a56b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LX-LC535"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e47ea981-000a-4d93-a5cf-d7c939c0a360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2168bc31-ed9b-4e71-a789-0ed7ed2f10c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1f9275c-c4ca-4251-8b1d-97e7bbbf068e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -11 -10.5)
+		(end 11 10.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3dee6d18-aef4-4042-a6c2-8af0c134011f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f7876fd-fed9-48f0-b9c4-ada7586a65fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -8 -6)
+		(size 3 3)
+		(drill 3)
+		(layers)
+		(uuid "ea5bc786-ec20-4307-a7ce-8763ae289de0")
+	)
+	(pad "" np_thru_hole circle
+		(at 8 -6)
+		(size 3 3)
+		(drill 3)
+		(layers)
+		(uuid "ae91c444-3362-4a55-be54-d5a20851a4b0")
+	)
+	(pad "1" thru_hole oval
+		(at -3 9)
+		(size 2.5 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "3fce318e-6c4d-4337-b9a9-fe061cf189cf")
+	)
+	(pad "2" thru_hole oval
+		(at 3 9)
+		(size 2.5 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f6c4fd8d-8121-4016-872e-88e11acd4908")
+	)
+	(embedded_fonts no)
+	(model "./LX-LC535.x3d"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 10 10 10)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

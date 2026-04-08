@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "nice!nano")(type "KiCad")(uri "${KIPRJMOD}/additional-symbols/nice!nano")(options "")(descr ""))
   (lib (name "LoRa_Radio")(type "KiCad")(uri "${KIPRJMOD}/additional-symbols/LoRa-E-KiCad")(options "")(descr ""))
+  (lib (name "ST7789")(type "KiCad")(uri "${KIPRJMOD}/additional-symbols/ST7789")(options "")(descr ""))
+  (lib (name "LX-LC535")(type "KiCad")(uri "${KIPRJMOD}/additional-symbols/LX-LC535")(options "")(descr ""))
 )
